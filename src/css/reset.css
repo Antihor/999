@@ -1,3 +1,6 @@
+:root{
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
 h1,
 h2,
 h3,
@@ -21,10 +24,18 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  cursor: pointer;
 }
 
 button {
   cursor: pointer;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #4b4fcf;
+}
+button:hover,
+button:focus{
+background-color: #2106d2;
 }
 
 img {
